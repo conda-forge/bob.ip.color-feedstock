@@ -10,7 +10,7 @@ source:
   url: https://pypi.io/packages/source/b/bob.ip.color/bob.ip.color-{{ version }}.zip
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - bob.io.base
     - cmake
     - pkg-config
-    - boost 1.61.*
+    - boost 1.62.*
 
   run:
     - python
@@ -32,7 +32,7 @@ requirements:
     - bob.blitz
     - bob.core
     - bob.io.base
-    - boost 1.61.*
+    - boost 1.62.*
 
 test:
   commands:
